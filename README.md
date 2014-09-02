@@ -98,11 +98,11 @@ See the class named `CoreDataController` from the example app to see how I am im
 
 4) Navigate to the *Example* project directory in the Terminal
 
-5) Run the following command: `pod update`  - [Install cocoapods](http://guides.cocoapods.org/using/getting-started.html#getting-started) if you don't have it.
+5) Run the following command: `pod install`  - [Install cocoapods](http://guides.cocoapods.org/using/getting-started.html#getting-started) if you don't have it.
 
 6) Open `APIncrementalStore.xcworkspace` in Xcode
 
-7) Navigate to the *Example* project's `AppDelegate.m` file and set the `APParsepApplicationId` and `APParseClientKey`
+7) Navigate to the *Example* project's `AppDelegate.m` file and set the `APParseApplicationId` and `APParseClientKey`
 
 8) You may run it on multiple devices (iOS Simulator + real iOS devices) to check to syncronization process
 
