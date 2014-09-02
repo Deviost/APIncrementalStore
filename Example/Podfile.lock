@@ -1,0 +1,29 @@
+PODS:
+  - APIncrementalStore (0.4.2):
+    - Parse-iOS-SDK
+  - Bolts (1.1.2)
+  - Facebook-iOS-SDK (3.17.0):
+    - Bolts
+  - MBProgressHUD (0.9)
+  - Parse-iOS-SDK (1.2.21):
+    - Bolts
+    - Facebook-iOS-SDK (~> 3.7)
+
+DEPENDENCIES:
+  - APIncrementalStore (from `../`)
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+
+EXTERNAL SOURCES:
+  APIncrementalStore:
+    :path: ../
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  APIncrementalStore: cc4ae9627e584b30088994d5cf6224a91a48f64c
+  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  Facebook-iOS-SDK: f20274d809f112ba540842e2b6cbe50128d51b7b
+  MBProgressHUD: 85f9608e8473269aba4f6603958bb8bafcb60388
+  Parse-iOS-SDK: 3781eeb56fa6b30d4feee97ee0d22595c07d6c70
+
+COCOAPODS: 0.33.1
