@@ -16,7 +16,7 @@
  */
 
 #import "CoreDataController.h"
-#import <
+#import <APIncrementalStore.h>
 #import "NSLogEmoji.h"
 #import "APCommon.h"
 
